@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--F a v i c o n-->
+  <link rel="shortcut icon" href="images/csr.ico" type="image/x-icon">
+  <link rel="icon" href="images/csr.ico" type="image/x-icon">
+  <!--c s s.-->
+  <link rel="stylesheet" href="css/style.css">
+  <!--c s s  f l e x b o x g r i d.-->
+  <link rel="stylesheet" href="css/flexboxgrid.css">
+  <!--a w e s o m e.-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+  <!--B o o s t r a p.-->
+  <link rel="stylesheet" href="css/estilo.css">
+  <!--f l e x b o x.-->
+  <link rel="stylesheet" href="css/flexboxgrid.css">
+  <!--animate.css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <title>Portafolio</title>
+</head>
+<body class="body">
+  <!--C o n t a c t o y a g r a d e c i m i e n t o.-->
+  <section id="contacto" class="container-fluid color-pantalla-contactos">
+    <div class="row">
+      <div class="contenedor-formulario col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+        <form class="wow animate__animated animate-delay-2s animate__rotateOut" action="" id="form">
+          <div class="form">
+            <h1 class="titulo-contacto">Primer corte.</h1>
+            <div class="grupo">
+              <input type="number" name="" id="not1"><span class="barra"></span>
+              <label class="">Not 1.</label>
+            </div>
+        
+            <div class="grupo">
+              <input type="number" name="" id="not2"><span class="barra"></span>
+              <label>not 2</label>
+            </div>
+
+            <div class="grupo">
+              <input type="number" name="" id="not3"><span class="barra"></span>
+              <label>Nota 3</label>
+            </div>
+          </div>
+          <button class="btn-contacto" onclick="limpiarFormulario()" type="reset">Limpiar.</button>
+        </form>
+      </div>
+
+
+      <div class="contenedor-formulario col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+        <form class="wow animate__animated animate-delay-2s animate__rotateOut" action="" id="form">
+          <div class="form">
+            <h1 class="titulo-contacto">Segundo corte.</h1>
+            <div class="grupo">
+              <input type="number" name="" id="not4"><span class="barra"></span>
+              <label class="">Not 4.</label>
+            </div>
+        
+            <div class="grupo">
+              <input type="number" name="" id="not5"><span class="barra"></span>
+              <label>not 5</label>
+            </div>
+          </div>
+          <button class="btn-contacto" onclick="limpiarFormulario()" type="reset">Limpiar.</button>
+        </form>
+      </div>
+
+      <div class="contenedor-formulario col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+        <form class="wow animate__animated animate-delay-2s animate__rotateOut" action="" id="form">
+          <div class="form">
+            <h1 class="titulo-contacto">Tercer corte.</h1>
+            <div class="grupo">
+              <input type="number" name="" id="not6"><span class="barra"></span>
+              <label class="">Not 6.</label>
+            </div>
+        
+            <button class="btn-contacto" type="submit">Promedio.</button>
+            <button class="btn-contacto" onclick="limpiarFormulario()" type="reset">Limpiar.</button>
+          </div>
+        </form>
+      </div>
+      <p class="parrafo-form" id="parrafo-formulario"></p>
+    </div>
+  </section>
+
+  <!--P i e d e p a g i n a.-->
+  <footer class="container-fluid color-pie-pagina">
+    <div class="row">
+      <div class="contenedor-pie-de-pagina col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+        <img class="animate__animated wow animate__heartBeat animate-delay-2s" src="images/csr-foo.png" alt="logo de la pagina, camilo solano rodriguez" width="100">
+        <p>Programa realizado el cual tiene las siguientes expecificaciones:<br>
+          1). Tener una interfas la cual solicite las siguientes notas.<br>
+          Corte No1:
+            3 notas.<br>
+          Corte NO2:
+            2 notas.<br>
+          Corte No3:
+            1 nota.<br>
+          2). Cada corte debe tener un valor de: <br>
+          Corte No1: 30%<br>
+          Corte NO2: 30%<br>
+          Corte No3: 40%<br>
+          3). Debe admitir solo valores numericos positivos.<br>
+          4). el rango de nota solo puede ser de 1-5.<br>
+          5).Debe contener un boton limpiar.<br>
+          6).Debe mostrar si el alumno aprobo la materia en el siguiente criterio, todo estudiante que haya arpobado con nota 3 o superior.
+        </p>
+      </div>
+      <div class="contenedor-pie-de-pagina col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+        <h3 class="ziz wow animate__animated animate__wobble animate__delay-1s">Información <br>de contacto</h3>
+        <p class="wow animate__animated animate__jello animate__delay-1s">whatsapp: <span class="white-contacto">+57 311 702 2824</span><br>
+          Celular: <span class="white-contacto">+57 313 636 8783</span><br>
+          Correo: <span class="white-contacto">esmunred@gmail.com</span></p>
+      </div>
+      <div class="contenedor-pie-de-pagina wow animate__animated animate__bounceInUp animate-delay-4s col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+        <h3>Redes sociales</h3>
+        <p>Me puedes encontrar en todas las redes sociales como @camilosolanorodriguez o dandole directamente click a los iconos.</p>
+        <a href="https://api.whatsapp.com/send?phone=573117022824&text=Buenos%20dias%20o%20buenas%20tardes%2C%20le%20hablo%20por%20el%20motivo%20de%3A"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="https://www.facebook.com/camilosolanorodriguez"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.facebook.com/messages/t/100023768829242"><i class="fa-brands fa-facebook-messenger"></i></a>
+        <a href="https://github.com/Camilocsr"><i class="fa-brands fa-github"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!--B o o s t r a p.-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  <!--wow-->
+  <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+  <!--javaScript-->
+  <script src="js/index.js"></script>
+</body>
+</html>
