@@ -1,19 +1,19 @@
-// const de el formulario de contacto.
-const not1 = document.getElementById('not1');
-const not2 = document.getElementById('not2');
-const not3 = document.getElementById('not3');
-const parrafo = document.getElementById('parrafo-formulario');
+// constantes de el formulario de contacto.
+const not1 = document.getElementById('not1'); //LLamo el id de html para usarlo en js.
+const not2 = document.getElementById('not2'); //LLamo el id de html para usarlo en js.
+const not3 = document.getElementById('not3'); //LLamo el id de html para usarlo en js.
+const parrafo = document.getElementById('parrafo-formulario'); //LLamo el id de html para usarlo en js.
 
-// variables segundo form.
-const not4 = document.getElementById('not4');
-const not5 = document.getElementById('not5');
-const parrafo2 = document.getElementById('parrafo-formulario2');
+// constantes segundo form.
+const not4 = document.getElementById('not4');//LLamo el id de html para usarlo en js.
+const not5 = document.getElementById('not5');//LLamo el id de html para usarlo en js.
+const parrafo2 = document.getElementById('parrafo-formulario2');//LLamo el id de html para usarlo en js.
 
-// variables tres form.
-const not6 = document.getElementById('not6');
-const parrafo3 = document.getElementById('parrafo-formulario3');
+// constantes tres form.
+const not6 = document.getElementById('not6');//LLamo el id de html para usarlo en js.
+const parrafo3 = document.getElementById('parrafo-formulario3');//LLamo el id de html para usarlo en js.
 
-document.addEventListener('submit', contactactar=>{ // función del formulario de contacto.
+document.addEventListener('submit', contactactar=>{ // función La cual se encarga de validar los campos del programa y las operaciones matematicas
     contactactar.preventDefault();
     let = entrar = false;
     let = texto = "";
